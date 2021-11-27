@@ -474,7 +474,7 @@ the doors slide open.
 [[read what&#39;s on the desk|hotelroom2]]
 [[leave the room|hotelhall2]]
 (save-game: &quot;savegame&quot;)
-</tw-passagedata><tw-passagedata pid="74" name="hotellobbyback" tags="" position="5201,2358" size="100,100">it&#39;s less busy at the back of the lobby. the chandeliers sparkle and the music is soft.
+</tw-passagedata><tw-passagedata pid="74" name="hotellobbyback" tags="" position="5201,2358" size="100,100">(if: $daytime is not 1)[it&#39;s less busy at the back of the lobby. ]the chandeliers sparkle and the music is soft.
 
 a staircase to your right leads down and out of the lobby. 
 the sign on the elevators reads &#39;upstairs&#39;.
@@ -483,7 +483,7 @@ the sign on the elevators reads &#39;upstairs&#39;.
 [[walk down to the canal|hoteltonest1]]
 [[enter the elevator|hotelelevatorup]]
 (save-game: &quot;savegame&quot;)
-(set: $maphotel to 1)</tw-passagedata><tw-passagedata pid="75" name="hotellobbyfront" tags="" position="5204,2476" size="100,100">the marble floor reads &#39;the orchid hotel&#39;. the ceiling soars above you. nearby guests bustle and murmur, nobody looks at you. old music plays from the ballroom.
+(set: $maphotel to 1)</tw-passagedata><tw-passagedata pid="75" name="hotellobbyfront" tags="" position="5204,2476" size="100,100">the marble floor reads &#39;the orchid hotel&#39;. the ceiling soars above you. (if: $daytime is 1)[the hotel is empty, everybody has gone home. ](else:)[nearby guests bustle and murmur, nobody looks at you. ]old music plays from the ballroom.
 
 the sign on the elevators reads &#39;beach&#39;.
 
@@ -875,7 +875,7 @@ it reads &quot;in time we all shall rise&quot;
 [[walk towards the cathedral|fccath]]
 [[walk towards the machine|fcmachine]]
 (save-game: &quot;savegame&quot;)
-</tw-passagedata><tw-passagedata pid="144" name="fccath" tags="" position="7871,3736" size="100,100">the cathedral is burning. the stones are crumbling to the ground. above it, a hand reaches into the sky.
+</tw-passagedata><tw-passagedata pid="144" name="fccath" tags="" position="7867,3736" size="100,100">the cathedral is burning. the stones are crumbling to the ground. above it, a hand reaches into the sky.
 
 [[enter the cathedral|fccath1]]
 [[walk towards the mural|fc2]]
@@ -2469,8 +2469,8 @@ cassandra looks at you, and smiles.
 
 [[he walks back into the dormitory|gwolf9]]
 (save-game: &quot;savegame&quot;)
-</tw-passagedata><tw-passagedata pid="474" name="gwolf9" tags="" position="3968,3182" size="100,100">&quot;i&#39;m gonna, stay here for a little bit. i&#39;m not really doing anything.&quot;
-he pulls out an old photo from his jacket pocket and holds it up to the light before placing it by the window.
+</tw-passagedata><tw-passagedata pid="474" name="gwolf9" tags="" position="3968,3182" size="100,100">(if: $returnvisit is 1)[&quot;i&#39;m gonna get going. i&#39;ve got stuff to get on with, back on the surface.&quot;](else:)[&quot;i&#39;m gonna, stay here for a little bit. i&#39;m not really doing anything.&quot;]
+he pulls out an old photo from his jacket pocket and holds it up to the light before placing it by the window. (if: $returnvisit is 1)[he leaves without a word.]
 
 [[&quot;...&quot;|wolfdorm]]
 (set: $gilupstairs to 2)
