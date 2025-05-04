@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="keywords" content="game, design, designer, puzzle, godot, etc">
+
+	<meta name="description" content="the portfolio site for game designer Aidan Burns">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>aidan burns portfolio</title>
+
+	<link rel="stylesheet" href="the-style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&ampdisplay=swap"
+		rel="stylesheet">
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+
+		<div class="center-me-noflex">
+
+			<div class="header-banner">
+				<div>
+					<a href="index.html" style="text-decoration:none">
+						<h1 class="site-title" title="that's me!">aidan burns: game designer</h1>
+					</a>
+				</div>
+				<div>
+					<p style="background-color: var(--flexoki-red-300)" class="page-title" title="you are here">"hellish
+						voyage"</p>
+				</div>
+			</div>
+
+		</div>
+
+		<hr>
+
+	</header>
+
+	<div class="center-me-noflex">
+
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-red-300)">
+
+			<video width="100%"
+				alt='A quick video demo of gameplay - the player walks around the ship, looks at a few objects and talks to a crow.'
+				controls>
+				<source src="hellish-voyage-media/hv-video-demo.mp4" type="video/mp4">Your browser does not support the video
+				tag.
+			</video>
+			
+			<img src="hellish-voyage-media/key-art.png"
+				alt='"Hellish Voyage" key art - cartoonish demon / art deco text against a dark, scary ocean'>
+
+			<br>
+			
+			<p>Jaydn's exquisite key art, featuring a simulated ocean!</p>
+
+
+		</div>
+
+
+		<h1 class="subheading">Overview</h1>
+
+
+		<p><b>Hellish Voyage</b> is a first-person point-and-click adventure game about a demon trapped on an
+			unbelievably cursed cruise ship.</p>
+		<p>I was responsible for programming the game and designing its systems. I also contributed to its design and
+			writing.</p>
+		<p>Its vertical slice was built alongside Luca Walker, Sylvie Freeman and Jaydn Jones from February to May 2024,
+			and was based on an original concept by Vince Ljubimova. <a
+				href="https://bigbyjones.itch.io/hellish-voyage">Check it out on itch.io!</a></p>
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-red-300)">
+
+			<img src="hellish-voyage-media/gameplay.png"
+				alt="screenshots of gameplay from Hellish Voyage, featuring a crow to talk to, a long omnious hallway and a cosy looking bed">
+
+			<p>Join Furfur, a demon summoned to the SS Elysium under nefarious circumstances, as he unravels a devilish
+				conspiracy.</p>
+
+		</div>
+
+		<br>
+
+		<h1 class="subheading">Designing the systems</h1>
+		<p>My biggest responsibility on the project was creating a framework to efficiently link between the dozens of
+			scenes that constituted the SS Elysium while minimising repetition, tedium, and potential errors. I relied
+			heavily on Godot's exported variables and reusable scripts to curtail the amount of bespoke coding required
+			by a scene.</p>
+
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-red-300)">
+
+			<img src="hellish-voyage-media/playtesting.png"
+				alt="Pictures from various playtesting sessions at different points in development, even including an early paper prototype!">
+
+			<p>We used multiple rounds of playtesting to support our design: it was essential for ironing out gaps in
+				the puzzles and polishing the UI.</p>
+
+		</div>
+
+		<br>
+		<h1 class="subheading">Building a distinct style</h1>
+		<p>Aside from my personal enthusiasm for Myst, the choice to use pre-rendered visuals instead of real-time
+			rendering was initially made to guarantee visual fidelity while keeping our workflows simple. This
+			additional visual polish also had the effect of giving the hallways of the SS Elysium an uncanny atmosphere,
+			suitable for the game's demonic theme.</p>
+
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-red-300)">
+
+			<img src="hellish-voyage-media/room-layouts.png"
+				alt="Sketches of level designs from various points in development.">
+
+			<p>The level design and visual presentation went through multiple iterations as we refined our systems,
+				narrative, and puzzle design. We simplified the layouts for better readability from fixed perspectives,
+				cut down on unnecessary detail, and streamlined navigation.</p>
+
+		</div>
+
+		<br>
+		<h1 class="subheading">Designing for an event</h1>
+		<p>The game was going to be exhibited at university events and played by members of the public, so we had to
+			design it to be satisfying to complete within ten minutes. We took great care when building the narrative
+			and tinkering with the puzzle difficulty to ensure we kept the player's attention and provided an engaging
+			challenge.</p>
+		<p>This lead us to structuring the game linearly, with one action unlocking another in sequence, but we allowed
+			the player to deviate from their objective at any point to explore and talk to other characters. Players
+			responded well to this, and enjoyed clicking on everything to find unique dialogue.</p>
+
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-red-300)">
+
+			<img src="hellish-voyage-media/visual-evo.png"
+				alt="Screenshots of a bedroom render from various points in development, showing texturing and design changes.">
+
+			<p>Some prototype renders used for debugging and initial playtesting. The ship changed a lot during
+				development!</p>
+
+		</div>
+
+		<br>
+
+		<h1 class="subheading">Reflection</h1>
+
+		<p>Looking back on the project now, I'm most proud of my work on the game's invisible "manager" systems that
+			control its logic and continuity. The game appears technically simple, so I was surprised by the number of
+			problems I had to solve to ensure its basic systems could scale to support the full experience. I found
+			designing elegant solutions to streamline development to be a fun challenge that deepened my understanding
+			of the Godot engine.</p>
+		<p>I really enjoyed building Hellish Voyage and am proud of the silly little game we made. I hope you enjoy it
+			too.</p>
+
+		<br>
+		
+	</div>
+
+
+</body>
+
+</html>

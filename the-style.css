@@ -1,0 +1,476 @@
+:root {
+  --flexoki-black:           #100F0F;
+  --flexoki-paper:           #FFFCF0;
+
+  --flexoki-50:              #F2F0E5;
+  --flexoki-100:             #E6E4D9;
+  --flexoki-150:             #DAD8CE;
+  --flexoki-200:             #CECDC3;
+  --flexoki-300:             #B7B5AC;
+  --flexoki-400:             #9F9D96;
+  --flexoki-500:             #878580;
+  --flexoki-600:             #6F6E69;
+  --flexoki-700:             #575653;
+  --flexoki-800:             #403E3C;
+  --flexoki-850:             #343331;
+  --flexoki-900:             #282726;
+  --flexoki-950:             #1C1B1A;
+
+  --flexoki-red-50:          #FFE1D5;
+  --flexoki-red-100:         #FFCABB;
+  --flexoki-red-150:         #FDB2A2;
+  --flexoki-red-200:         #F89A8A;
+  --flexoki-red-300:         #E8705F;
+  --flexoki-red-400:         #D14D41;
+  --flexoki-red-500:         #C03E35;
+  --flexoki-red-600:         #AF3029;
+  --flexoki-red-700:         #942822;
+  --flexoki-red-800:         #6C201C;
+  --flexoki-red-850:         #551B18;
+  --flexoki-red-900:         #3E1715;
+  --flexoki-red-950:         #261312;
+
+  --flexoki-orange-50:       #FFE7CE;
+  --flexoki-orange-100:      #FED3AF;
+  --flexoki-orange-150:      #FCC192;
+  --flexoki-orange-200:      #F9AE77;
+  --flexoki-orange-300:      #EC8B49;
+  --flexoki-orange-400:      #DA702C;
+  --flexoki-orange-500:      #CB6120;
+  --flexoki-orange-600:      #BC5215;
+  --flexoki-orange-700:      #9D4310;
+  --flexoki-orange-800:      #71320D;
+  --flexoki-orange-850:      #59290D;
+  --flexoki-orange-900:      #40200D;
+  --flexoki-orange-950:      #27180E;
+
+  --flexoki-yellow-50:       #FAEEC6;
+  --flexoki-yellow-100:      #F6E2A0;
+  --flexoki-yellow-150:      #F1D67E;
+  --flexoki-yellow-200:      #ECCB60;
+  --flexoki-yellow-300:      #DFB431;
+  --flexoki-yellow-400:      #D0A215;
+  --flexoki-yellow-500:      #BE9207;
+  --flexoki-yellow-600:      #AD8301;
+  --flexoki-yellow-700:      #8E6B01;
+  --flexoki-yellow-800:      #664D01;
+  --flexoki-yellow-850:      #503D02;
+  --flexoki-yellow-900:      #3A2D04;
+  --flexoki-yellow-950:      #241E08;
+
+  --flexoki-green-50:        #EDEECF;
+  --flexoki-green-100:       #DDE2B2;
+  --flexoki-green-150:       #CDD597;
+  --flexoki-green-200:       #BEC97E;
+  --flexoki-green-300:       #A0AF54;
+  --flexoki-green-400:       #879A39;
+  --flexoki-green-500:       #768D21;
+  --flexoki-green-600:       #66800B;
+  --flexoki-green-700:       #536907;
+  --flexoki-green-800:       #3D4C07;
+  --flexoki-green-850:       #313D07;
+  --flexoki-green-900:       #252D09;
+  --flexoki-green-950:       #1A1E0C;
+
+  --flexoki-cyan-50:         #DDF1E4;
+  --flexoki-cyan-100:        #BFE8D9;
+  --flexoki-cyan-150:        #A2DECE;
+  --flexoki-cyan-200:        #87D3C3;
+  --flexoki-cyan-300:        #5ABDAC;
+  --flexoki-cyan-400:        #3AA99F;
+  --flexoki-cyan-500:        #2F968D;
+  --flexoki-cyan-600:        #24837B;
+  --flexoki-cyan-700:        #1C6C66;
+  --flexoki-cyan-800:        #164F4A;
+  --flexoki-cyan-850:        #143F3C;
+  --flexoki-cyan-900:        #122F2C;
+  --flexoki-cyan-950:        #101F1D;
+
+  --flexoki-blue-50:         #E1ECEB;
+  --flexoki-blue-100:        #C6DDE8;
+  --flexoki-blue-150:        #ABCFE2;
+  --flexoki-blue-200:        #92BFDB;
+  --flexoki-blue-300:        #66A0C8;
+  --flexoki-blue-400:        #4385BE;
+  --flexoki-blue-500:        #3171B2;
+  --flexoki-blue-600:        #205EA6;
+  --flexoki-blue-700:        #1A4F8C;
+  --flexoki-blue-800:        #163B66;
+  --flexoki-blue-850:        #133051;
+  --flexoki-blue-900:        #12253B;
+  --flexoki-blue-950:        #101A24;
+
+  --flexoki-purple-50:       #F0EAEC;
+  --flexoki-purple-100:      #E2D9E9;
+  --flexoki-purple-150:      #D3CAE6;
+  --flexoki-purple-200:      #C4B9E0;
+  --flexoki-purple-300:      #A699D0;
+  --flexoki-purple-400:      #8B7EC8;
+  --flexoki-purple-500:      #735EB5;
+  --flexoki-purple-600:      #5E409D;
+  --flexoki-purple-700:      #4F3685;
+  --flexoki-purple-800:      #3C2A62;
+  --flexoki-purple-850:      #31234E;
+  --flexoki-purple-900:      #261C39;
+  --flexoki-purple-950:      #1A1623;
+
+  --flexoki-magenta-50:      #FEE4E5;
+  --flexoki-magenta-100:     #FCCFDA;
+  --flexoki-magenta-150:     #F9B9CF;
+  --flexoki-magenta-200:     #F4A4C2;
+  --flexoki-magenta-300:     #E47DA8;
+  --flexoki-magenta-400:     #CE5D97;
+  --flexoki-magenta-500:     #B74583;
+  --flexoki-magenta-600:     #A02F6F;
+  --flexoki-magenta-700:     #87285E;
+  --flexoki-magenta-800:     #641F46;
+  --flexoki-magenta-850:     #4F1B39;
+  --flexoki-magenta-900:     #39172B;
+  --flexoki-magenta-950:     #24131D;
+  
+
+}
+
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background-color: var(--flexoki-paper);
+}
+h1 {
+  color: var(--flexoki-black);
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 160%;
+}
+h2 {
+  color: var(--flexoki-black);
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 140%;
+}
+
+h3 {
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 200%;
+	color: var(--flexoki-black);
+	margin-bottom: -10px;
+	margin-top: 20px;
+}
+
+p {
+  color: var(--flexoki-black);
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
+}
+
+.white-text {
+  color: var(--flexoki-paper);
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.white > p{
+  color: var(--flexoki-paper);
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+ 
+.about-me-container {
+	display: grid;
+	grid-template-columns: 20% 60% 20%
+}
+
+.about-me-container > .about-me-box {
+	margin: auto;
+	background-color: var(--flexoki-red-400)
+	
+}
+
+	
+.head-grid-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%
+ }
+ 
+ .page-title{
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 160%;
+  text-align: right;
+ }
+ 
+ .header-banner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: auto; /*super easy way to align stuff all nicely!*/
+	
+ }
+ 
+ .center-me {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	margin: auto;
+ }
+ 
+ .center-me-noflex {
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	margin: auto;
+ }
+ 
+ @media (max-width: 1200px) {
+   .center-me-noflex {
+    justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+  }
+}
+ 
+ /* add in max-width for the flexboxes so they display right on mobile! called RESPONSIVE FLEXBOXES, SEEMS EASY! */
+ /* remember you can have classes with inheritance!*/
+ 
+ .game-box-flex {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: left;
+	width: 45%;
+	padding: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+ }
+ 
+  .game-box {
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+ }
+ 
+ .key-thumb {
+	 width: 100%;
+ }
+ 
+  .key-thumb:hover {
+	transform: translateY(-4pt);
+ }
+ 
+ .thumb-gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	margin: auto;
+ }
+ 
+ .game-box-text > h2 {
+	 font-size: 180%;
+	 margin-top: 8px;
+	 margin-bottom: 8px;
+ }
+ 
+  .game-box-text > p {
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+ }
+ 
+.desc-column {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	margin: auto;
+}
+
+.desc-text {
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--flexoki-black);
+	margin-right: auto;
+	margin-left: auto;
+	width: 45%;
+}
+
+dl {
+	color: var(--flexoki-black);
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+dl > dt {
+	font-style: bold;
+}
+
+.site-title:hover {
+	color: var(--flexoki-blue-600);
+}
+
+p > a {
+	color: var(--flexoki-blue-600);
+}
+
+.foot {
+	margin: auto;
+	text-align: center;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100%;
+}
+
+.desc-box {
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--flexoki-black);
+	box-sizing: border-box;
+	padding: 10px;
+	}
+
+.desc-box > img {
+	width: 100%;
+	
+}
+
+.desc-box > p {
+	text-align: center;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 110%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.subheading {
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 200%;
+	color: var(--flexoki-black);
+	margin-bottom: -10px;
+	margin-top: 20px;
+}
+
+.gb-title:hover {
+	color: var(--flexoki-blue-600);
+}
+
+.gb-title {
+	color: black;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 100%;
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}

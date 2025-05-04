@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="keywords" content="game, design, designer, puzzle, godot, etc">
+
+<meta name="description" content="the portfolio site for game designer Aidan Burns">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>aidan burns portfolio</title>
+
+<link rel="stylesheet" href="the-style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style>
+
+</style>
+</head>
+<body>
+
+<header>
+
+	<div class="center-me-noflex">
+
+
+
+		<div class="header-banner">
+			<div>
+				<a href="index.html" style="text-decoration:none" ><h1 class="site-title" title="that's me!" >aidan burns: game designer</h1></a>
+			</div>
+			<div>
+				<p style="background-color: var(--flexoki-magenta-300)" class="page-title" title="you are here" >"the ancient art of stewcraft"</p>
+			</div>
+		</div>
+
+	</div>
+
+<hr>
+	
+</header>
+
+<div class="center-me-noflex">
+
+	<br>
+
+	<div class="desc-box" style="background-color: var(--flexoki-magenta-300)">
+	
+		<img src="stewcraft/key-art.png" alt='"Hellish Voyage" key art - cartoonish demon / art deco text against a dark, scary ocean'>
+		
+		<!--<br>
+		
+		<video width="100%" alt='A quick video demo of gameplay - I match up some ingredients and make some meals. I also accidentally feed Stu a few raw carrots.' controls><source src="stewcraft/stew_video.mp4" type="video/mp4">Your browser does not support the video tag.<video>
+		
+		<p>Jaydn's exquisite key art, featuring a simulated ocean!</p> -->
+	
+	</div>
+	
+
+		<h1 class="subheading">Overview</h1>
+	
+	
+	<p><b>The Ancient Art of Stewcraft</b> is a "Suika-like" arcade game made for Global Game Jam 2025, following the theme "bubble".</p>
+	<p>I designed and programmed the game from the 24th to the 26th of January, and Jaydn Jones provided the artwork. <a href="https://bigbyjones.itch.io/the-ancient-art-of-stewcraft">Check it out on itch.io!</a></p>
+	<br>
+	
+	<div class="desc-box" style="background-color: var(--flexoki-magenta-300)">
+	
+		<img src="stewcraft/image1.png" alt="some red balls floating in a grey circle, inside a black void">
+		<br>
+		<img src="stewcraft/image2.png" alt="the grey circle is now much more full, and the balls have little lines pointing in various directions">
+	
+		<p>This is how the game looked on the morning of the first day: the number represents the framerate, as it struggles to manage all the physics objects!</p>
+	
+	</div>
+	
+	<br>
+	
+	<h1 class="subheading">Finding the core mechanic</h1>
+	<p>I didn't immediately have an idea I was set on, so instead tried to find one I liked through experimentation. I started to program a cellular automata system based around bubbles that could attract and repel each other to see if anything interesting came of it. I enjoyed watching the bubbles bounce and glitch around, it resembled a bubbling stew!</p>
+	<p>Once the bubbles settled, the arrows that showed their movement direction linked up in a uniform pattern, which reminded me of a match-three game. I liked the idea of building a physics-based match-three game using little colourful bubbles, and so built an algorithm for bubbles to recognise when they were in a group of like colours - I'd found my game mechanic!</p>
+	
+	<br>
+	
+	<div class="desc-box" style="background-color: var(--flexoki-magenta-300)">
+	
+		<img src="stewcraft/image3.png" alt="some red balls floating in a grey circle, inside a black void">
+		<br>
+		<img src="stewcraft/image4.png" alt="the grey circle is now much more full, and the balls have little lines pointing in various directions">
+	
+		<p>This is how the game looked by the end of the second day: all of the major mechanics were in place, but it needed some polish!</p>
+	
+	</div>
+	
+	<br>
+	<h1 class="subheading">Finding the fun</h1>
+	<p>I tried to find an enjoyable presentation for the match-three system I had programmed. My course leader suggested that the colourful bubbles bouncing around resembled a gambling game, but I didn't want to program additional complex systems or UI. I let the player spin the pot with the mouse wheel, or stir the bubbles with a virtual spoon, but neither were very fun; the fun came from the bubbles being out-of-control!</p>
+	<p>It was fun to watch the bubbles cascade over each other and match up unexpectedly, which reminded me of <a href="https://www.youtube.com/watch?v=uoz6UwCdMD4">the Suika fruit game</a>. I decided that the goal would be to try and work with the physics to make specific colour matches, while trying not to make the wrong matches by accident.</p>
+	<p>After the name "The Ancient Art of Stewcraft" was revealed to me in a flash of divine insight, Jaydn drew the bubbles as little ingredients, the completed "meals" as bowls of stew, and then I coded them to fall into the customer's mouth. The game was almost done!</p>
+	
+	<br>
+	
+	<div class="desc-box" style="background-color: var(--flexoki-magenta-300)">
+	
+		<img src="stewcraft/image5.png" alt="The game is complete, with full graphics and sound, and Stu Craft awaiting his meal in the corner.">
+	
+		<p>With Jaydn's graphics, some simple sound effects, and a Kevin MacLeod arrangement of Canon in D, the game was complete!</p>
+	
+	</div>
+	
+	<br>
+	<h1 class="subheading">Controlling the chaos</h1>
+	<p>While the game was fun at this point, players remarked that it still felt too chaotic - they wanted more control over making incorrect matches. To remedy this, I allowed for players to "catch" meals before they fell into the customer's mouth if they could react fast enough. I tuned the speed at which the meals fell so that it was possible to grab them without lightning-fast reflexes, but I kept them fast enough that players didn't have to wait around for their correct meals to be registered.</p>
+	
+	<br>
+	
+</div>
+
+</body>
+</html>
