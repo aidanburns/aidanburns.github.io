@@ -355,13 +355,24 @@ p {
 	margin-bottom: 10px;
   }
 }
- 
-  .game-box {
+
+ .game-box {
 	width: 100%;
 	padding: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	box-sizing: border-box;
+	}
+ 
+  @media (max-width: 1200px) {
+  .game-box {
+	width: 100%;
+	padding: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	}
+ 
  }
  
  .key-thumb {
