@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="keywords" content="game, design, designer, puzzle, godot, etc">
+
+	<meta name="description" content="the portfolio site for game designer Aidan Burns">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>aidan burns portfolio</title>
+
+	<link rel="stylesheet" href="the-style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&ampdisplay=swap"
+		rel="stylesheet">
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+
+		<div class="center-me-noflex">
+
+			<div class="header-banner">
+				<div>
+					<a href="index.html" style="text-decoration:none">
+						<h1 class="site-title" title="that's me!">aidan burns: game designer</h1>
+					</a>
+				</div>
+				<div style="width: 10%;"></div>
+				<div>
+					<p style="background-color: var(--flexoki-blue-300)" class="page-title" title="you are here">"butterfly machine"</p>
+				</div>
+			</div>
+
+		</div>
+
+		<hr>
+
+	</header>
+
+	<div class="center-me-noflex">
+
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-blue-300)">
+
+			 
+
+				
+			<img src="butterfly-machine/key-art.png"
+				alt='"Butterfly Machine" key art - crt-green glowing text with a butterfly wing to the right side'>
+				
+				 <iframe width="100%" height="420" src="https://www.youtube.com/embed/lgFaJq_a9s0" allowfullscreen ></iframe> 
+
+			<br>
+			
+			<p>Jaydn's lovely key art, and our game trailer (edited by me!)</p>
+
+
+		</div>
+
+
+		<h1 class="subheading">Overview</h1>
+
+
+		<p><b>Butterfly Machine</b> is a 3D puzzle game about a robot learning to reprogram itself.</p>
+		<p>I was responsible for the game design, direction, and programming, and also contributed some sound effects.</p>
+		<p>It was developed from December 2024 to May 2025 alongside Jaydn Jones, and features soundscapes from musician Ralph Banks. <a
+				href="https://bigbyjones.itch.io/butterfly-machine"> You can download the game for free on itch.io!</a></p>
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-blue-300)">
+
+			<iframe width="100%" height="420" src="https://www.youtube.com/embed/p4txFbGxqMY" allowfullscreen ></iframe> 
+
+			<p>I filmed and edited a short documentary about the game's design and development.</p>
+
+		</div>
+
+		<br>
+
+		<h1 class="subheading">Research-driven ideation</h1>
+		<p> Our final university projects were inspired by external research: I chose to examine generative art, much of which uses digital logic to emulate organic structures and behaviour, emphasising faults in the systems to make the synthetic seem natural.</p>
+		<br>
+		
+		<div class="desc-box" style="background-color: var(--flexoki-blue-300)">
+				
+			<img src="butterfly-machine/genart.png"
+				alt="A moodboard of some of the generative art that would eventually inspire our theme: Rain World, Georg Nees, Scan Processor Studies">
+
+			<p>I looked into traditional line printer artworks, video synthesis, and modern implementations of generative logic in games such as Rain World and Spelunky.</p>
+
+		</div>
+		
+		<br>
+		<p>I became interested in exploring player fragility in gameplay: could I tell a story by allowing the player to meddle with their internal systems? Can we give the player a tactile sense of responsibility over their life? Thus, we landed on the final pitch of having the player control a robot and modify its internal logic.</p>
+		<br>
+
+		
+		<div class="desc-box" style="background-color: var(--flexoki-blue-300)">
+			<img src="butterfly-machine/idea-canvas.png"
+				alt="A mindmap of initial game concepts.">
+				
+			<p>A mindmap of initial GenArt-inspired game concepts, including spooky photo-investigations, playable montage music videos, and nesting realities.</p>
+
+		</div>
+
+		<br>
+		<h1 class="subheading">Defining the design</h1>
+		<p>We used paper prototypes to nail down the design's opportunities and threats: we conducted a playtest that required the player to "sacrifice" their safety net in order to progress, this taught us that players can only feel good making "out-of-the-box" choices when they feel that it's truly their choice, which pushed us further into making a game about an open, "laissez-faire" system.</p>
+
+		<br>
+
+		<div class="desc-box" style="background-color: var(--flexoki-blue-300)">
+
+			<img src="butterfly-machine/minotaur.jpg"
+				alt="A 'race game' paper prototype, built to investigate how players approach self-sacrifice.">
+
+			<p>A simple paper prototype built to investigate players' approaches to self-sacrifice as a puzzle mechanic.</p>
+
+		</div>
+		
+		<p>
+		I also tested an early paper version of the game's programming mechanics, inspired by node-based visual scripting systems. It turned out that players enjoyed experimenting with the system even when just dealing with basic mechanics: our game was enjoyable just on paper!
+		</p>
+
+		<br>
+		
+		<div class="desc-box" style="background-color: var(--flexoki-blue-300)">
+
+			<img src="butterfly-machine/wire-test.jpg"
+				alt="A prototype version of what would eventually become the game's wiring mechanics.">
+
+			<p>A rough paper prototype testing the game's basic wiring mechanics: I had to ensure that experimenting with the system was fun before I committed to building it.</p>
+
+		</div>
+		
+		<br>
+		
+		<p>
+		
+		Jaydn and I then set out to carefully define our design pillars into a Game Project Proposal. We first defined the <b>themes</b> that we wanted the design to convey, and translated them into our <b>design pillars</b>:
+		
+		<ol>
+			<li><b>Responsibility for yourself</b>: The player is in total control of the robot, and so must take care of it.</li>
+			<li><b>Self-modification</b>: The only way to progress is by the robot changing itself.</li>
+			<li><b>Curiosity and fear</b>: Modification is powerful but dangerous, and must be undertaken with care.</li>
+		</ol>
+		
+		</p>
+		
+		<p>
+		We also created three "<b>philosophies</b>" that helped us structure the experience:
+		
+		<ol>
+		<li><b>An Unbroken Journey</b>: The player stays with the robot for the entirety of the game and their perspective never shifts away. The game is about the player's journey, and so it's important that the player feels connected to their avatar.</li>
+		<li><b>Laissez-Faire</b>: The game takes a "hands-off" approach to the player's interactions. If the player is to feel responsible for the robot,  they must be free to succeed and fail of their own volition.</li>
+		<li><b>Universal Logic</b>: To support the a non-interventionist approach to gameplay, all moving parts in the game world should be a part of the same modular, open system. The robot is simply another part of the world.</li>
+		</ol>
+		</p>
+		
+		<p> So! Our goal was to create an open system, where the player could control their avatar completely, and use that to create tension.</p>
+<br>
+
+
+
+		
+		
+		
+		
+		
+	</div>
+
+
+</body>
+
+</html>
