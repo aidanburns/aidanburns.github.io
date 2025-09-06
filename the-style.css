@@ -507,3 +507,11 @@ ol {
   font-style: normal;
   font-size: 120%;
 }
+
+ul {
+	color: var(--flexoki-black);
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
+}
